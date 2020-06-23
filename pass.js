@@ -88,4 +88,4 @@ if (arg("-v") || arg("-verbose")) {
 }
 
 // Log the final password to the output so users can copy it.
-console.log(enc);
+process.stdout.write(enc);
